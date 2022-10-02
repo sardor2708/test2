@@ -1,0 +1,190 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter-Regular', sans-serif;
+}
+
+.header {
+    background: #000000;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter-Bold', sans-serif;
+    text-decoration: none;
+}
+
+.menu__link {
+    font-family: 'Inter-Regular', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    color: #c4c4c4
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    list-style: none;
+}
+
+.banner {
+    background: url(./img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+}
+
+.banner__wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+}
+
+h1 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+}
+
+.banner__btn {
+    padding: 12px 24px;
+    font-size: 35px;
+    font-family: 'Inter-Bold', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    transition: 0.3s;
+}
+
+/* transition плавный переход */
+/* :hover изменяет элемент при наведении */
+
+.banner__btn:hover {
+    background: black;
+    color: white;
+}
+
+.about {
+    background: #0E1C25;
+    padding: 30px 0 112px;
+
+}
+
+.about__heading {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    margin-bottom: 48px;
+}
+
+.about__wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.about__desc {
+    color: white;
+}
+
+.about__desc-h3 {
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 62px;
+}
+
+.about__desc-p {
+    width: 428px;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.mywork {
+    background: #5C6B81;
+    padding: 44px 0 70px;
+}
+
+.mywork__heading {
+    color: white;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card {
+    background: #B12B06;
+    width: 312px;
+    height: 550px;
+    padding: 15px 15px 28px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card__body h4 {
+    color: white;
+    margin: 20px 0;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card__body p {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card__btn {
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    background: white;
+}
+
+.mywork__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
